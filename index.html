@@ -5,21 +5,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
 </head>
 <body>
   <center>
     <h1>New Website</h1>
   </center>
-  <h2>Choose a button</h2>
-  <div class="btn_group">
-    <button>Mountains</button>
-    <button>Waterfalls</button>
-    <button>Landscapes</button>
-  </div>
-
-  <br>
-  <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2020/11/25/thumbs/800x531/74707.jpg" alt=""/>
   <hr>
+  <center>
+    <h2>Choose a button</h2>
+
+    <img id="optionImage" src="https://idsb.tmgrup.com.tr/ly/uploads/images/2020/11/25/thumbs/800x531/74707.jpg" alt=""/><br>
+
+    <div class="btn_group">
+      <button onclick="changeImage('https://idsb.tmgrup.com.tr/ly/uploads/images/2020/11/25/thumbs/800x531/74707.jpg')">Mountains</button>
+  
+      <button onclick="changeImage('https://www.banfflakelouise.com/sites/default/files/lead/collection/img_3250_1.jpg')">Waterfalls</button>
+  
+      <button onclick="changeImage('https://images.unsplash.com/photo-1484591974057-265bb767ef71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80')">Landscapes</button>
+    </div>
+  </center>
 
 </body>
 </html>
